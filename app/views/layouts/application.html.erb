@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Jegerkreditor</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
+  <%= render 'head' %>
 <body>
-
-<%= yield %>
-
+  <section id="page">
+  <div id="bodywrap">
+    <section id="top">
+      <%= render 'navigation' %>
+      <%= render 'shared/header' %>
+      <%= yield %>
+      <%= render 'footer' %>
+    </div>
+  </section>
 </body>
 </html>
+
