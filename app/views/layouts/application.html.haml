@@ -1,0 +1,12 @@
+!!!
+%html
+  = render 'layouts/head'
+%body
+  %section#page
+    #bodywrap
+      %section#top
+        = render 'layouts/navigation'
+        = yield :header
+        = yield
+        = render 'layouts/footer'
+

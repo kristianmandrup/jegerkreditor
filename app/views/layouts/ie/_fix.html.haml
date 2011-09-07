@@ -1,0 +1,8 @@
+/[if IE]
+  %script{:src => "http://html5shiv.googlecode.com/svn/trunk/html5.js"}
+/[if IE 6]
+  = javascript_include_tag "js/belatedPNG"
+  :javascript
+    DD_belatedPNG.fix('*');
+
+
