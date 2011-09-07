@@ -3,9 +3,9 @@ Author's Website : CSSHeaven.org, Roshanravi.com
 This website templats, Images, CSS, and HTML files are released under Creative Commons Non-Commercial Attribution License.
 You are free to use it for your website provided that you keep the link back to CSSHeaven.org unaltered and on all the pages designed with this template.
 */
-@import url("font/droidsans.css");
-@import url("font/fertigo.css");
-@import url("font/texgyre.css");
+@import url("droidsans.css");
+@import url("fertigo.css");
+@import url("texgyre.css");
 
 * {padding:0; margin:0;}
 ul {
@@ -41,16 +41,16 @@ section, header, footer, article, nav {
 }
 
 body {
-  background: url(images/htmlbg.jpg) left top repeat-x;
+  background: url(htmlbg.jpg) left top repeat-x;
   font-size: 62.5%;
   color: #333;
   font-family: Verdana, Geneva, sans-serif;
 
   .normalpage {
-    background: url(images/normalhtml.jpg) left top repeat-x;
+    background: url(normalhtml.jpg) left top repeat-x;
 
     #page {
-      background: url(images/normalheader.jpg) center top no-repeat; 
+      background: url(normalheader.jpg) center top no-repeat; 
       height: 255px;
     }
 
@@ -63,7 +63,7 @@ body {
 #page {
   width: 100%;
   height: 100%;
-  background: url(images/headerbg.jpg) center top no-repeat; 
+  background: url(headerbg.jpg) center top no-repeat; 
 }
 
 #bodywrap {
@@ -87,7 +87,7 @@ body.normalpage body.normalpage #top #normalheader {
 }
 
 #contentwrap {
-  background: url(images/wrapbg.png) center top no-repeat;
+  background: url(wrapbg.png) center top no-repeat;
 }
 
 #homeheader {
@@ -103,7 +103,7 @@ body.normalpage body.normalpage #top #normalheader {
 
   a {
     display: block;
-    background: url(images/portfoliologo.gif) no-repeat;
+    background: url(portfoliologo.gif) no-repeat;
     height: 42px;
     width: 170px;
     float: left;
@@ -125,7 +125,7 @@ body.normalpage body.normalpage #top #normalheader {
 
     .current a {
       color: #fff;
-      background: url(images/activemenu.png) center bottom no-repeat;
+      background: url(activemenu.png) center bottom no-repeat;
     }
 
     a {
@@ -161,7 +161,7 @@ body.normalpage body.normalpage #top #normalheader {
 
 #contents {
   margin: 0 26px 0 26px;
-  background: url(images/wraptop.jpg) 0 30px repeat-x;
+  background: url(wraptop.jpg) 0 30px repeat-x;
   min-height: 300px;
   padding: 45px 15px 0 15px;
 
@@ -208,19 +208,19 @@ h3 {
 }
 
 #normalpage {
-  background: url(images/sidebarbg.jpg) 650px 0 repeat-y; 
+  background: url(sidebarbg.jpg) 650px 0 repeat-y; 
   min-height: 200px;
 
   #sidebar h2 {
     display: block;
-    background:url(images/sidebarh2.jpg) left center no-repeat; 
+    background:url(sidebarh2.jpg) left center no-repeat; 
     line-height: 27px;
     padding: 5px 10px 10px 10px;
   }
 
   #left h2 {
     display: block;
-    background: url(images/lefth2.jpg) left center no-repeat; 
+    background: url(lefth2.jpg) left center no-repeat; 
     line-height: 27px;
     padding: 5px 10px 10px 10px;
   }
@@ -244,7 +244,7 @@ h3 {
 
 blockquote {
   display: block;
-  background: url(images/quote.png) left top no-repeat;
+  background: url(quote.png) left top no-repeat;
   padding-left: 25px;
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif!important;
@@ -267,7 +267,7 @@ blockquote {
 }
 
 #bottom {
-  background: url(images/footerbg.png) repeat-x;
+  background: url(footerbg.png) repeat-x;
   height: 294px;
   width: 940px;
   margin: 0 auto;
@@ -276,7 +276,7 @@ blockquote {
   .block1 {
     width: 300px;
     padding: 20px 20px 20px 0;
-    background: url(images/footerblockdiv.png) right top repeat-y;
+    background: url(footerblockdiv.png) right top repeat-y;
     height: 254px;
     float: left;
   }
@@ -285,7 +285,7 @@ blockquote {
     width: 260px;
     padding: 20px 0 20px 60px;
     height: 254px;
-    background: url(images/footerblockdiv.png) left top repeat-y;
+    background: url(footerblockdiv.png) left top repeat-y;
     float:right;
   }
 
@@ -297,7 +297,7 @@ blockquote {
 }
 
 #pagefooter {
-  background: url(images/footerbg.jpg) repeat-x;
+  background: url(footerbg.jpg) repeat-x;
   height: 351px;
   width: 100%;
   padding-top: 11px;
@@ -313,7 +313,7 @@ blockquote {
   padding-left:15px;
 
   .imgthmb {
-    background: transparent url(images/footerimgbg.png) left top no-repeat;
+    background: transparent url(footerimgbg.png) left top no-repeat;
     display:block;
     float:left;
     height:78px;
@@ -413,12 +413,12 @@ ul.pagination {
       width:19px;
       height:19px;
       margin:3px;
-      background: url(images/slidernav.png) no-repeat;
+      background: url(slidernav.png) no-repeat;
       text-indent:-9000px;
     }
 
     .active a {
-      background: url(images/slidernava.png) no-repeat!important;
+      background: url(slidernava.png) no-repeat!important;
       text-indent:-9000px;
     }
   }
@@ -461,7 +461,7 @@ ul.pagination {
 
   li {
     display: block;
-    background: url(images/listbullet.gif) left center no-repeat;
+    background: url(listbullet.gif) left center no-repeat;
     line-height: 22px;
     margin-bottom: 5px;
     padding-left: 25px;
@@ -529,11 +529,11 @@ ul.pagination {
       line-height: 20px;
       border-bottom: solid 1px #ddd;
       padding: 5px 0 0 25px;
-      background: url(images/sidebarli.gif) left 7px no-repeat;
+      background: url(sidebarli.gif) left 7px no-repeat;
       display:block;
 
       &:hover {
-        background: url(images/sidebarli2.gif) left 7px no-repeat; color:#036;
+        background: url(sidebarli2.gif) left 7px no-repeat; color:#036;
       }
     }
   }
